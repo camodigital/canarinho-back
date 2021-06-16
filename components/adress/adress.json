@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_adress_adresses",
+  "info": {
+    "name": "Adress",
+    "icon": "map-marker-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "richtext"
+    },
+    "Latitude": {
+      "type": "float"
+    },
+    "Longitude": {
+      "type": "float"
+    }
+  }
+}

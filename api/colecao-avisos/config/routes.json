@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/colecao-avisos",
+      "handler": "colecao-avisos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/colecao-avisos/count",
+      "handler": "colecao-avisos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/colecao-avisos/:id",
+      "handler": "colecao-avisos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/colecao-avisos",
+      "handler": "colecao-avisos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/colecao-avisos/:id",
+      "handler": "colecao-avisos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/colecao-avisos/:id",
+      "handler": "colecao-avisos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

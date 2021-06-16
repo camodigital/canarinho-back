@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pagina-cardapio",
+      "handler": "pagina-cardapio.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pagina-cardapio",
+      "handler": "pagina-cardapio.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pagina-cardapio",
+      "handler": "pagina-cardapio.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

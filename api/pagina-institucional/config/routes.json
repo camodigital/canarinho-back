@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pagina-institucional",
+      "handler": "pagina-institucional.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pagina-institucional",
+      "handler": "pagina-institucional.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pagina-institucional",
+      "handler": "pagina-institucional.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

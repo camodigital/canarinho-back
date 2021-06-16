@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/colecao-cardapios",
+      "handler": "colecao-cardapio.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/colecao-cardapios/count",
+      "handler": "colecao-cardapio.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/colecao-cardapios/:id",
+      "handler": "colecao-cardapio.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/colecao-cardapios",
+      "handler": "colecao-cardapio.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/colecao-cardapios/:id",
+      "handler": "colecao-cardapio.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/colecao-cardapios/:id",
+      "handler": "colecao-cardapio.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

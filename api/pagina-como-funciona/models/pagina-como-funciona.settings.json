@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_como_funcionas",
+  "info": {
+    "name": "Página Como Funciona"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Title": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "title-page.titulo"
+    }
+  }
+}

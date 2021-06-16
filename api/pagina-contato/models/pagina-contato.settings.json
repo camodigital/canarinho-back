@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_contatoes",
+  "info": {
+    "name": "Página Contato",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Unidades": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "adress.adress"
+    }
+  }
+}

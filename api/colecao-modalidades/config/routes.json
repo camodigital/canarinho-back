@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/colecao-modalidades",
+      "handler": "colecao-modalidades.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/colecao-modalidades/count",
+      "handler": "colecao-modalidades.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/colecao-modalidades/:id",
+      "handler": "colecao-modalidades.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/colecao-modalidades",
+      "handler": "colecao-modalidades.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/colecao-modalidades/:id",
+      "handler": "colecao-modalidades.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/colecao-modalidades/:id",
+      "handler": "colecao-modalidades.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pagina-avisos-gerais",
+      "handler": "pagina-avisos-gerais.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pagina-avisos-gerais",
+      "handler": "pagina-avisos-gerais.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pagina-avisos-gerais",
+      "handler": "pagina-avisos-gerais.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

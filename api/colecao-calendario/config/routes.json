@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/colecao-calendarios",
+      "handler": "colecao-calendario.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/colecao-calendarios/count",
+      "handler": "colecao-calendario.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/colecao-calendarios/:id",
+      "handler": "colecao-calendario.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/colecao-calendarios",
+      "handler": "colecao-calendario.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/colecao-calendarios/:id",
+      "handler": "colecao-calendario.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/colecao-calendarios/:id",
+      "handler": "colecao-calendario.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

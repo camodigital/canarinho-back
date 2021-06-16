@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/colecao-depoimentos",
+      "handler": "colecao-depoimentos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/colecao-depoimentos/count",
+      "handler": "colecao-depoimentos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/colecao-depoimentos/:id",
+      "handler": "colecao-depoimentos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/colecao-depoimentos",
+      "handler": "colecao-depoimentos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/colecao-depoimentos/:id",
+      "handler": "colecao-depoimentos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/colecao-depoimentos/:id",
+      "handler": "colecao-depoimentos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

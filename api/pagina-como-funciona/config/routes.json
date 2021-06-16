@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pagina-como-funciona",
+      "handler": "pagina-como-funciona.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pagina-como-funciona",
+      "handler": "pagina-como-funciona.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pagina-como-funciona",
+      "handler": "pagina-como-funciona.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

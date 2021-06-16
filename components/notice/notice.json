@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_notice_notices",
+  "info": {
+    "name": "Notice",
+    "icon": "certificate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "aviso": {
+      "model": "colecao-avisos"
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

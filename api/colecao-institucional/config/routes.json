@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/colecao-institucionals",
+      "handler": "colecao-institucional.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/colecao-institucionals/count",
+      "handler": "colecao-institucional.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/colecao-institucionals/:id",
+      "handler": "colecao-institucional.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/colecao-institucionals",
+      "handler": "colecao-institucional.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/colecao-institucionals/:id",
+      "handler": "colecao-institucional.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/colecao-institucionals/:id",
+      "handler": "colecao-institucional.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

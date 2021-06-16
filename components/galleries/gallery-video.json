@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_galleries_gallery_videos",
+  "info": {
+    "name": "Gallery_Video",
+    "icon": "file-video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Video": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pagina-contato",
+      "handler": "pagina-contato.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pagina-contato",
+      "handler": "pagina-contato.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pagina-contato",
+      "handler": "pagina-contato.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_cardapios",
+  "info": {
+    "name": "Página Cardápio"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Title": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "title-page.titulo"
+    },
+    "Documents": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "documents.documents"
+    }
+  }
+}

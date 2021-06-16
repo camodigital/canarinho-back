@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_tour_virual_tour_virtuals",
+  "info": {
+    "name": "Tour Virtual",
+    "icon": "crow"
+  },
+  "options": {},
+  "attributes": {
+    "Asa_Sul": {
+      "type": "string"
+    },
+    "Asa_Norte": {
+      "type": "string"
+    }
+  }
+}

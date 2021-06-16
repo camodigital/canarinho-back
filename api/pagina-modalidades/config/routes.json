@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pagina-modalidades",
+      "handler": "pagina-modalidades.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pagina-modalidades",
+      "handler": "pagina-modalidades.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pagina-modalidades",
+      "handler": "pagina-modalidades.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

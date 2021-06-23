@@ -35,6 +35,16 @@
         }
       },
       "component": "notice.notice"
+    },
+    "InstaFeed": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "insta-feed.insta-feed"
     }
   }
 }

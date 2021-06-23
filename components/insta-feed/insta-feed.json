@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_insta_feed_insta_feeds",
+  "info": {
+    "name": "InstaFeed",
+    "icon": "indent"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Url": {
+      "type": "string"
+    }
+  }
+}

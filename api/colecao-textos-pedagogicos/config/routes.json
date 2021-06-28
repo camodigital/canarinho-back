@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/colecao-textos-pedagogicos",
+      "handler": "colecao-textos-pedagogicos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/colecao-textos-pedagogicos/count",
+      "handler": "colecao-textos-pedagogicos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/colecao-textos-pedagogicos/:id",
+      "handler": "colecao-textos-pedagogicos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/colecao-textos-pedagogicos",
+      "handler": "colecao-textos-pedagogicos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/colecao-textos-pedagogicos/:id",
+      "handler": "colecao-textos-pedagogicos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/colecao-textos-pedagogicos/:id",
+      "handler": "colecao-textos-pedagogicos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

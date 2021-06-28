@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pagina-textos-pedagogicos",
+      "handler": "pagina-textos-pedagogicos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pagina-textos-pedagogicos",
+      "handler": "pagina-textos-pedagogicos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pagina-textos-pedagogicos",
+      "handler": "pagina-textos-pedagogicos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "pagina_textos_pedagogicos",
   "info": {
-    "name": "Página Textos Pedagógicos"
+    "name": "Página Textos Pedagógicos",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -17,7 +18,7 @@
   "attributes": {
     "Title": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
